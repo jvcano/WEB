@@ -1,11 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World! </title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-  </body>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+		integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="style.css">
+	<title>Test Page</title>
+</head>
+
+<body>
+	<section class="showcase">
+		<div class="video-container">
+			<video class="slider-video"playsinline  width="100%" preload="auto" loop="" autoplay muted
+				style="visibility: visible; width: 100%;" poster="//dl.dropbox.com//s/mr69yyos2xfkl8v/Capture.JPG">
+				<source type="video/mp4" src="//dl.dropbox.com/s/zatl9qn5l37rlvk/IMG_0007.MOV">
+				<source src="//dl.dropbox.com/s/s/zatl9qn5l37rlvk/IMG_0007.mp4" type="video/mp4">
+				<source src="//dl.dropbox.com/s/zatl9qn5l37rlvk/IMG_0007.webm" type="video/webm">
+				<source src="//dl.dropbox.com/s/zatl9qn5l37rlvk/IMG_0007.ogg" type="video/ogg">
+			</video>
+		</div>
+
+		<div class="content">
+			<svg>
+			<h1> Shoot for the stars </h1>
+			
+			<h3>Resume</h3>
+			</svg>
+			<a href="#about" class="btn">click here</a>
+		</div>
+	</section>
+
+	<section id="about">
+		<h1>About</h1>
+		<p>
+			Jose LV Cano
+		</p>
+
+		<h2>Follow me on social media</h2>
+
+		<div class="social">
+			<a href="https://twitter.com/chocheX2" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
+			<a href="https://www.facebook.com/joseluis.velacano" target="_blank"><i
+					class="fab fa-facebook fa-3x"></i></a>
+			<a href="https://github.com/jvcano" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+			<a href="https://in.linkedin.com/in/joselv-cano" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+
+		</div>
+	
+	<!--Waves Container-->
+	<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+		<defs>
+		  <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"/>
+		</defs>
+		<g class="parallax">
+		  <use xlink:href="#gentle-wave" x="48" y="0" fill="#92dff3"/>
+		  <use xlink:href="#gentle-wave" x="48" y="3" fill="#92dff3"/>
+		  <use xlink:href="#gentle-wave" x="48" y="5" fill="#b7e9f7"/>
+		  <use xlink:href="#gentle-wave" x="48" y="7" fill="#dbf3fa"/>
+		</g>
+	  </svg>
+	
+		<!--Waves end-->
+		
+	
+</body>
+
 </html>
